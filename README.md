@@ -20,7 +20,7 @@ Make sure you have **Node.js** and **Redis** installed on your system.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Pruthvi070/NodeTask.git
+   git clone https://github.com/rakumbhar/node-project.git
    cd NodeTask
    ```
 
