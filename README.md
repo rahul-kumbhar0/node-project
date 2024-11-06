@@ -65,25 +65,7 @@ Make sure you have **Node.js** and **Redis** installed on your system.
        "user_id": "unique_user_id"
      }
      ```
-
----
-
-## 📂 Project Structure
-
-```plaintext
-src
-├── app.js               # Main server configuration and route setup
-├── controllers
-│   └── taskController.js # Handles task requests, rate limiting, and queueing
-├── queues
-│   ├── taskQueue.js      # Initializes the task queue with Bull
-│   └── taskFunction.js   # Defines task processing logic
-├── utils
-│   └── rateLimiter.js    # Implements rate limiting using Redis
-└── logs
-    └── task_logs.txt     # Log file for processed tasks
-```
-
+     
 ---
 
 ## 🔍 Testing
